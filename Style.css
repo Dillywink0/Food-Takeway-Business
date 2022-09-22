@@ -1,0 +1,203 @@
+    div {
+      text-shadow: 2px 2px 5px black;
+    }
+    .StyleHeader{
+      background-color: #3d3d3d;
+      padding: 10px;
+      text-align: center;
+      font-size: 33px;
+      color: white;
+    
+    }
+    
+      /*===== Article ====*/ 
+  article{
+    flex: 3;
+    background-color: black;
+    min-height: 500px;
+    text-align: center;
+    color:white;
+    box-sizing: border-box;
+    font-size: 28px;
+    width: auto;
+    
+}
+/*===== Footor ====*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:20px;
+  opacity:0.3;
+  font-size:13px;
+    padding:0.3px;
+    color:#f0f9ff;
+    background-color:black;
+  }
+
+      
+section{
+  display: flex;
+}
+/*===== Sidebar ====*/
+.sidebar{
+flex: 0.5;
+background-color: black;
+padding: 10px;
+}
+
+/*===== Aside ====*/
+.MainAside{
+flex: 1;
+background-color: black;
+padding: 10px;
+color: white;
+box-sizing: border-box;
+width: auto;
+}
+    body,html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-color: black;
+    margin:0;
+    }
+    .site {
+    height: 100%;
+    width: 100%;
+    }
+    .navbar {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    z-index:1;
+    }
+    .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    }
+    .navbar a{
+    display: inline;
+    display: block;
+    }
+  
+    .navbar li a {
+    float: right;
+    font-size: 20px;
+    padding: 20px 10px;
+    }
+    .homelink {
+    float: left;
+    font-size: 18px;
+    padding: 20px;
+    }
+    
+    /*===== Will help the homepage image scroll parall to the user====*/
+    .parallax {
+    background-image: url('https://images.ctfassets.net/lm0nxqkzuy44/5NgO7x5GIbxg3xl2kGqTBh/870276362800233e91da75db0f01ae29/pizza.jpg?fm=webp');
+    height: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.welcome {
+height: 10%;
+width: 50%;
+font-size: 48px;
+color: white;
+position: absolute;
+top: 55%;
+left: 10%;
+font-weight:bold;
+}
+
+.infobox {
+width: 100%;
+color: white;
+text-align: center;
+position: static;
+display:inline;
+padding:20px;
+}
+
+/*===== Home page Button ====*/
+.orderbtn {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: black;
+text-align: center;
+cursor: pointer;
+width:150px;
+width:150px;
+font-size: 18px;
+position: absolute;
+position: relative;
+top: 70%;
+left: 10%;
+}
+
+.orderbtn:hover {
+opacity: 0.7;
+}
+
+/*===== Highlights the Links to each of food pages when the mouse is on any of them links ====*/
+a:link {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
+
